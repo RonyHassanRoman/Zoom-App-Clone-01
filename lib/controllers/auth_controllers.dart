@@ -5,9 +5,9 @@ import 'package:google_sign_in/google_sign_in.dart';
 class AuthController {
   final FirebaseAuth _auth = FirebaseAuth.instance;
   final _firebaseStore = FirebaseFirestore.instance;
-
+// save login data
   Stream<User?> get authChanger => _auth.authStateChanges();
-  
+// save login data
 
   signinWithGoogle() async {
     try {
