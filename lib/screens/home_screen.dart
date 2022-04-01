@@ -48,6 +48,7 @@ class _HomeState extends State<Home> {
         ],
       ),
       body: pages[pageindex],
+      
     );
   }
 }

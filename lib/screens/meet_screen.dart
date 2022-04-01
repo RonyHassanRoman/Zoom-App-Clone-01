@@ -10,8 +10,24 @@ class MeetScreen extends StatelessWidget {
         child: Column(
       children: [
         Row(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: const [
-            ResuableIcon(icon: Icons.video_call),
+            ResuableIcon(
+              icon: Icons.videocam,
+              text: 'New Meeting',
+            ),
+            ResuableIcon(
+              icon: Icons.add_box,
+              text: 'Join Meeting',
+            ),
+            ResuableIcon(
+              icon: Icons.calendar_today,
+              text: 'Shedule',
+            ),
+            ResuableIcon(
+              icon: Icons.arrow_upward_outlined,
+              text: 'Share Screen',
+            ),
           ],
         )
       ],
